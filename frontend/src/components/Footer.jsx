@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="#" target="_blank">Features</a>
             </li>
             <li className='my-2 text-sm text-neutral-400 hover:text-black'>
-              <a href="#" target="_blank">Events</a>
+              <a href="#" >Events</a>
             </li>
             <li className='my-2 text-sm text-neutral-400 hover:text-black'>
               <a href="#" target="_blank">About</a>
