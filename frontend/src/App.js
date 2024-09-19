@@ -5,6 +5,8 @@ import CompanyLogin from './pages/CompanyLogin';
 import IndividualLogin from './pages/IndividualLogin';
 import Login from './pages/Login';
 import Navbar from './components/Navbar';
+import UserProfile from './pages/UserProfile';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
         <Route path="/company-login" element={<CompanyLogin />} />
         <Route path="/individual-login" element={<IndividualLogin />} />
         <Route path="/signin" element={<Login />}/>
+        <Route path='/Profile' element={<UserProfile/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 };
